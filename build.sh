@@ -30,11 +30,11 @@ echo "复制源文件..."
 cp "$SOURCE_DIR/info.json" "$BUILD_DIR/"
 cp "$SOURCE_DIR/main.js" "$BUILD_DIR/"
 cp "$SOURCE_DIR/lang.js" "$BUILD_DIR/"
-cp "$SOURCE_DIR/icon.png" "$BUILD_DIR/"
+cp "$SOURCE_DIR/icon.svg" "$BUILD_DIR/"
 
 # 验证必要文件存在
 echo "验证文件完整性..."
-required_files=("info.json" "main.js" "lang.js" "icon.png")
+required_files=("info.json" "main.js" "lang.js" "icon.svg")
 for file in "${required_files[@]}"; do
     if [ ! -f "$BUILD_DIR/$file" ]; then
         echo "错误: 缺少必要文件 $file"

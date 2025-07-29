@@ -4,7 +4,7 @@
     {
       "version": "1.0.0",
       "desc": "初始版本：基于智谱 GLM-4.5-Flash 的快速翻译插件，避免触发思考功能以提升翻译速度",
-      "sha256": "16f53fb31a65cbc19231ce1435234303af161ef1e7862dc7604bfa4c509e38d1",
+      "sha256": "d11ff4f9bf226ae32fd3406158509416cdb6536f22546b7d81cc4f2fbb5415af",
       "url": "https://github.com/bobocai/bob-zhipu-nothink/releases/download/v1.0.0/zhipu-nothink-1.0.0.bobplugin",
       "minBobVersion": "0.5.0"
     }
